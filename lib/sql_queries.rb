@@ -39,7 +39,7 @@ GROUP BY Users.name ORDER BY user_total_pledge, Users.name;"
 end
 
 def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category
-"SELECT Projects.category, SUM(Pledges.amount) as category_pledge_total
+"SELECT Projects.category, Pledges.amount
 FROM projects
 LEFT JOIN pledges
 ON Projects.id = Pledges.project_id
