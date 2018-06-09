@@ -3,5 +3,5 @@ CREATE TABLE projects (
   title TEXT,
   category TEXT,
   funding_goal INTEGER
-  start_date TEXT
+  start_date INTEGER
 )
