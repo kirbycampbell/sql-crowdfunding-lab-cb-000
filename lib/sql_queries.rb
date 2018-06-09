@@ -31,11 +31,11 @@ GROUP BY Projects.title HAVING amount_over_goal >= 0;"
 end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount_and_users_name
-"SELECT Users.name, SUM(Pledges.amount)
+"SELECT Users.name, SUM(Pledges.amount) AS user_total_pledge
 FROM users
 LEFT JOIN pledges
-ON Users.id = Pledges.id
-GROUP BY Pledges.amount ORDER BY Pledges.amount;"
+ON Users.id = Pledges.user_id
+GROUP BY Usesrs.name ORDER BY user_total_pledge, Users.name;"
 end
 
 def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category
