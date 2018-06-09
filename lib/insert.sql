@@ -21,3 +21,21 @@ INSERT INTO users (name, age) VALUES ("Pillz", 25);
 
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
 VALUES ("Run Master", "Dumb", 6500, 10-11-18, 12-11-18);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date)
+VALUES ("Run Master", "Dumb", 6500, 10-11-18, 12-11-18);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date)
+VALUES ("Run Master", "Dumb", 6500, 10-11-18, 12-11-18);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date)
+VALUES ("Run Master", "Dumb", 6500, 10-11-18, 12-11-18);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date)
+VALUES ("Run Master", "Dumb", 6500, 10-11-18, 12-11-18);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date)
+VALUES ("Run Master", "Dumb", 6500, 10-11-18, 12-11-18);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date)
+VALUES ("Run Master", "Dumb", 6500, 10-11-18, 12-11-18);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date)
+VALUES ("Run Master", "Dumb", 6500, 10-11-18, 12-11-18);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date)
+VALUES ("Run Master", "Dumb", 6500, 10-11-18, 12-11-18);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date)
+VALUES ("Run Master", "Dumb", 6500, 10-11-18, 12-11-18);
