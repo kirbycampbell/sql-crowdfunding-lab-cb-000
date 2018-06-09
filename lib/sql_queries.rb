@@ -9,7 +9,7 @@
 def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_name
 "SELECT Projects.title, Pledges.amount
  FROM projects
- FULL JOIN pledges
+ LEFT JOIN pledges
  ON Projects.id = Pledges.project_id
  ORDER BY Projects.title;"
 end
