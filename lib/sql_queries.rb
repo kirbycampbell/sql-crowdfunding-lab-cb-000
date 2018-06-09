@@ -24,11 +24,11 @@ end
 
 def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_funding_goal
 "SELECT Projects.title, SUM(Pledges.amount - Projects.funding_goal)
-FROM pledges
-INNER JOIN projects
+FROM projects
+INNER JOIN pledges
 ON Pledges.project_id = Projects.id
 WHERE Projects.funding_goal < Pledges.amount
-GROUP BY Pledges.amount ; "
+GROUP BY Pledges.amount; "
 end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount_and_users_name
